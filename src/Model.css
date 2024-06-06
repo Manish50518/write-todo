@@ -1,0 +1,75 @@
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.31);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalbody {
+  width: 500px;
+  height: 200px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #eebefa;
+}
+
+/* MODEL */
+
+h3 {
+  font-size: 24px;
+  font-family: "M PLUS Rounded 1c";
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid #be4bdb;
+}
+
+.main-cont {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.model-input {
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  padding: 10px;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.todo-add-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.model-btn {
+  border: none;
+  background: none;
+  color: #862e9c;
+}
+
+.close-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.close-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+.close-btn {
+  margin-top: 15px;
+  border: none;
+  background: none;
+  color: #862e9c;
+  margin-right: 10px;
+
+  display: inline-block;
+}
